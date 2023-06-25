@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/custom.css">
+</head>
+<body>
+    {% block page-container%}
+    <div class="chat-container">
+        <div class="left-contact-panel">
+            contacts
+        </div>
+        <div class="right-chat-panel">
+            <div class="chat-box-title">
+                title
+            </div>
+            <div class="chat-box-window">
+                window
+            </div>
+            <div class="chat-box-emoj">
+                emoj
+            </div>
+            <div class="chat-box-msg-box">
+                <label for="msg"></label><textarea name="" id="msg" ></textarea>
+                <button class="btn btn-success">发送消息</button>
+            </div>
+
+        </div>
+        <div class="clear-both"></div>
+    </div>
+    {% endblock %}
+
+
+</body>
+</html>
